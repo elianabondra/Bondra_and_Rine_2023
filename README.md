@@ -7,4 +7,8 @@ Included in this folder are the custom genomes to which the raw sequencing data 
 For data associated with figures 1-3, the general workflow is alignment_example >> rmdup_folder >> sort_index >> coverage >> normalize_bedgraphs >> example_bedgraph_plot
 
 
-For data associated with figures 4-5, a similar workflow takes place. However, instead "AA_genome_stats" was used to calculate the read coverage assigned to the paradoxus genome. 
+For data associated with figures 4-5, a similar workflow takes place through alignment (to hybrid_genome_forAA_fig4-5.fa). Then "AA_genome_stats" was used to calculate the read coverage assigned to the paradoxus genome. 
+
+To define peak regions, "define_peaks_MACS.R" was called using a merged JRY15237_00_IP and JRY15238_00_IP as the IP, and a no-tag control JRY12923_IP as the Input. 
+
+
