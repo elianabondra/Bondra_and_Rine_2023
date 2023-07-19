@@ -1,8 +1,8 @@
-# code
-code_for_Bondra-and-Rine_PNAS_2023 "Context dependent function of the transcriptional regulator Rap1 in gene silencing and activation in Saccharomyces cerevisiae"
+
+The files here are supporting information for Bondra and Rine 2023, "Context dependent function of the transcriptional regulator Rap1 in gene silencing and activation in Saccharomyces cerevisiae"
 
 The source codes in this folder are for the analysis and plotting used in the manuscript above and NCBI GEO Series GSE227763
-Included in this folder are the custom genomes to which the raw sequencing data were aligned.
+Included in this folder are the custom genomes to which the raw sequencing data were aligned. 
 
 For data associated with figures 1-3, the general workflow is alignment_example (aligned to "fig1-3_genome.fa") >> rmdup_folder >> sort_index >> coverage >> normalize_bedgraphs >> example_bedgraph_plot
 
@@ -17,5 +17,4 @@ Bedgraphs for Figure 4B were plotted using "HML_bedgraphs.R" and "MAT_bedgraphs.
 Fitting the coverage data from SI Appendix Dataset S5, with normalized peak coverage over time to the non-linear regression as outlined in Materials and Methods, was done using "final_fits.R" 
 Non-linear regressions for Figure 4C,D were plotted using "decay_plots.R". 
 Figure 5B was plotted using "distance_vs_restime.R"
-
 "AA_plots.R" contains code for data analysis and plotting used in Figure 5, Figure S5, and Figure S6. 
